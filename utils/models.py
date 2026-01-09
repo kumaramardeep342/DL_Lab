@@ -4,7 +4,7 @@ from logging.handlers import TimedRotatingFileHandler
 
 # Create logs directory if not exists
 #LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
-LOG_DIR = "/content/drive/MyDrive/Colab Work/IIT MADRAS/TERM 2/DL_Lab/logs"
+LOG_DIR = "/content/drive/MyDrive/Colab Work/IIT MADRAS/TERM 2/AI_Lab/logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 LOG_FILE = os.path.join(LOG_DIR, "project.log")
